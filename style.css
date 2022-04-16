@@ -1,0 +1,294 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    padding: 60px 20px;
+    line-height: 1.5;
+    width: 500px;
+    margin: auto;
+}
+
+.cestovatel {
+    width: 100%;
+    padding: 0 90px 40px 90px;
+}
+
+h1,
+h2 {
+    color: #000000;
+}
+
+.hlavni {
+    padding: 0 130px;
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+.nadpisck {
+    padding: 0 110px 0 104px;
+    margin: 0 0 17px 0;
+    font-size: 16px;
+}
+
+.nadpisdelegat {
+    padding: 0 100px 0 95px;
+    margin: 60px 0 17px 0;
+    font-size: 16px;
+}
+
+
+
+p {
+    color: #8B8B8B;
+    text-align: center;
+    font-size: 16px;
+    width: 460px;
+    height: 85px;
+    margin: 0 0 30px 0;
+}
+
+a {
+    display: block;
+    padding: 0 152px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dobrodruzstvi {
+    background-color: #407BFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 11px 30px;
+    text-align: center;
+    margin: 0 132px;
+}
+
+.pohoda {
+    background-color: #8B8B8B;
+    color: #FAFAFA;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 11px 30px;
+    margin: 10px 115px 60px 115px;
+    text-align: center;
+}
+
+.sluzba {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: #407BFF1F 4px 6px 20px;
+    width: 460;
+    height: 80px;
+    margin: 15px 0 15px 0;
+}
+
+.text {
+    font-size: 13px;
+    margin: -60px 20px 20px 20px;
+}
+
+.foto {
+    max-width: 100%;
+    margin: 20px 394px 20px 20px;
+}
+
+hr {
+    height: 2px;
+    width: 60px;
+    background-color: #407BFF;
+    margin: 0 200px 30px 200px;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        width: 768px;
+        margin: auto;
+    }
+
+    .cestovatel {
+        width: 100%;
+        padding: 0 183px 0px 183px;
+    }
+
+    .hlavni {
+        padding: 0 250px 0 250px;
+        margin: 30px 0 10px 0;
+        font-size: 28px;
+    }
+  
+    .nadpisck {
+        padding: 0 200px 0 240px;
+        margin: 80px 0 17px 0;
+        font-size: 16px;
+    }
+    
+    .nadpisdelegat {
+        padding: 0 200px 0 220px;
+        margin: 80px 0 17px 0;
+        font-size: 16px;
+    }
+
+   .tlacitka {
+       display: flex;
+       justify-content: center;
+   }
+
+    .dobrodruzstvi {
+        width: 195px;
+        height: 40px;
+        margin: 0 20px 0 0;
+        padding: 6px;
+    }
+
+    .pohoda {
+        width: 220px;
+        height: 40px;
+        margin: 0;
+        padding: 6px;
+    }
+ 
+    hr {
+        height: 2px;
+        width: 60px;
+        background-color: #407BFF;
+        margin: 0 200px 30px 320px;
+    } 
+
+    .druhanabidka {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sluzba {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: #407BFF1F 4px 6px 20px;
+        width: 230px;
+        height: 172px;
+        margin: 15px 0 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text {
+        font-size: 13px;
+        margin: 10px 15px 21px 14px;
+    }
+    
+    .foto {
+        max-width: 100%;
+        margin: 30px 60px 20px 90px;
+    }
+    
+    p {
+        text-align: center;
+        width: 550px;
+        padding: 0 20px 0 20px;
+        margin: auto;
+    }  
+}
+
+
+@media screen and (min-width: 1100px) {
+    body {
+        width: 1200px;
+        margin: auto;
+        display: block;
+    }
+
+    .dvasloupce {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .cestovatel {
+        width: 100%;
+        padding: 100px 130px 60px 60px;
+    }
+
+    .hlavni {
+        text-align: left;
+        padding: 133px 0 0 5px;
+        margin: 0 0 10px 0;
+        font-size: 28px;
+    }
+    
+    hr {
+        padding: 0 0 0 60px;
+        margin: 0 150px 30px 5px;
+    }
+
+    .odstavec {
+        text-align: left;
+        padding: 0 0 0 5px;
+        margin: 0 0 30px 0;
+    }
+
+    .nadpisck {
+        padding: 0 20px 0 20px;
+        margin: 40px 0 17px 60px;
+    }
+
+    .druhyodstavec {
+        text-align: left;
+        padding: 0 0 0 80px;
+        margin: 0 0 30px 0;
+    }
+
+    .sluzba {
+        width: 170px;
+        height: 191px;
+        margin: 0 20px 0 20px;
+    }
+
+    .foto {
+        max-width: 100%;
+        margin: 40px 61px 111px 63px;
+    }
+
+    .text {
+        font-size: 13px;
+        margin: -90px 5px 5px 5px;
+    }
+
+    .nadpisdelegat {
+        padding: 50px 20px 0 10px;
+        margin: 0 0 10px 0;
+    }
+    
+    .tretiodstavec {
+        text-align: left;
+        padding: 0 20px 0 10px;
+        margin: 0 0 10px 0;
+    }
+
+    .delegat {
+        margin: 80px 0 0 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dobrodruzstvi {
+        margin: 0 20px 0 -100px;
+        padding: 6px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
